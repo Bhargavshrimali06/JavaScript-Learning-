@@ -1,3 +1,5 @@
+
+//Simple Switch example which changes text depanding on weather selected
 const select = document.querySelector("#Weather");
 const QuotePara = document.querySelector("#QuoteP");
 
@@ -21,7 +23,10 @@ function setWeather() {
 
     
 } 
-// This is for ternary operator
+
+
+// This is for ternary operator this changes Theme depanding on selected value
+
 const Theme = document.querySelector("#theme");
 const html = document.querySelector("html");
 document.body.style.padding = "15px";
@@ -44,25 +49,10 @@ document.body.style.padding = "15px";
 
 );
 
-// let name = prompt("What is the official name of javascript??");
 
-// if (name == "ECMAScript") {
-//     alert("your right!! ")
-// } else {
-//     alert("You don't know? it's ECMAScript");
-// }
+//Using OR || 
+let firstName = "Shrimali Bhargav";
+let lastName = "";
+let nickName = "";
 
-let num = prompt("type an number");
-
-if (num > 0) {
-    alert(1);
-} else if (num < 0) {
-    alert(-1);
-} else {
-    alert(0); 
-}
-
-
-
-let result = (a + b < 4) ? result = 'Below' : result = 'Over';
-
+alert(firstName || lastName || nickName || "Unknown");//this will return only defined variable if none is defined it will return Unknown
