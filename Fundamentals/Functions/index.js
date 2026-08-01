@@ -1,12 +1,35 @@
-const message = document.getElementById("message");
+
 
 
 //A simple Function to test 
 function favoriteAnimal(animal) 
 {
-    return animal + "is my favorite animal!"
-
+    return animal + "is my favorite Animal!"
 }
 
-message = favoriteAnimal('Horse')
-console.log(message)
+const message = favoriteAnimal('horsh')
+console.log(favoriteAnimal('turtal'))
+
+
+function greet()
+{
+    alert("Hello, Welcome User!!")
+}
+
+greet()
+
+//testing if function can chnage value of outer variable 
+let userName = "joy";
+
+function changeName()
+{
+   let userName = "Bob";
+    let message = "hello " + userName;
+    alert(message);
+}
+
+alert(userName);
+
+changeName();
+
+// alert(userName);
