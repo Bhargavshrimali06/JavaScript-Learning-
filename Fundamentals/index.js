@@ -56,3 +56,14 @@ let lastName = "";
 let nickName = "";
 
 alert(firstName || lastName || nickName || "Unknown");//this will return only defined variable if none is defined it will return Unknown
+
+//Using AND &&
+let timeMin = 10;
+let timeSec = 12;
+
+if (timeMin == 10 && timeSec == 12) {
+    console.log("perfact time");
+
+} else {
+    console.log("not perfact time yet!!");
+}
