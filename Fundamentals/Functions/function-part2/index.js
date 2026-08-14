@@ -26,7 +26,7 @@ const greet = function()
 }
 setTimeout(greet, 5000);//setTimeout set time like 5000 is 5 sec so greet will lauch after 5sec ezzz
 
-
+//using arrow function as short as i can 
 const arrays = [1,2,3];
 
 console.log(arrays);
@@ -34,3 +34,5 @@ console.log(arrays);
 const double = arrays.map(item => item *2);
 
 console.log(double);
+
+
