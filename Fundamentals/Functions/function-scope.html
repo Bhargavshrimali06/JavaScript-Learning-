@@ -1,3 +1,4 @@
+<!-- this is taken from MDN from an article to learn scope -->
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -8,14 +9,16 @@
 <body>
 
   <script>
-    const x = 1;
+    const x = 3;
 
     function a() {
       const y = 2;
+      output(y);
     }
 
     function b() {
       const z = 3;
+      output(z);
     }
 
     function output(value) {

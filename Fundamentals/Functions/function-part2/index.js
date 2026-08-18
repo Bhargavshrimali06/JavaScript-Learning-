@@ -35,4 +35,20 @@ const double = arrays.map(item => item *2);
 
 console.log(double);
 
+//scope 
+let x = 1;
+if (x === 1) {
+    var c = 2;
+    var d = 8;
+}
 
+for (let i=0; i <= 1; i++){
+    var e = 6;
+    var f = 7;
+}
+ function output(value) {
+    const para = document.createElement("p");
+    document.body.appendChild(para);
+    para.textContent = `Value: ${value}`;
+
+ }
