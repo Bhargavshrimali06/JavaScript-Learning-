@@ -52,3 +52,15 @@ for (let i=0; i <= 1; i++){
     para.textContent = `Value: ${value}`;
 
  }
+
+ //return 
+
+function num(num1, num2, num3)
+{
+    return num1 + num2 + num3; //testing return nothing else bruh 
+
+}
+
+let calNum = num(2, 4, 6) * 2;
+
+console.log(calNum);
