@@ -59,3 +59,19 @@ function showResult() {
 
     document.body.appendChild(showAns);
 }
+
+//this whole part is to understand stack flow it follows LIFO(last in first out)
+function a()
+{
+    b();
+}
+function b()
+{
+    c();
+}
+function c()
+{
+    alert("greet function is done");
+}
+
+a();
