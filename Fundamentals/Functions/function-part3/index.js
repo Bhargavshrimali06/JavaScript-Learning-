@@ -31,6 +31,6 @@ function ask(question, yes, no)
 
 //trying short method 
 ask("Do you Agree with our Terms & Condition?"
-    ,function() { alert("You have agreed.")}
+    ,function() { alert("You have agreed.")}  //this is short method very easy to write and read
     ,function() { alert("You have disagreed.")}
 );
