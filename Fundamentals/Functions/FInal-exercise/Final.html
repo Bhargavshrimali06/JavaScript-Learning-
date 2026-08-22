@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice page</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+  </head>
+  <body>
+    <!-- this form is for single number that will perform addition with 7 -->
+    <form>
+        <input type="number" name="numberadd" id="numAdd" placeholder="add number to add on 7">
+        <button type="button" onclick="showAns()">Add</button>
+        <br><br>    
+    </form>
+
+    <!-- this form is for Multiplication of two numbers  -->
+    <form>
+        <input type="number" id="num1" placeholder="Num1">
+        <input type="number" id="num2" placeholder="Num2">
+        <button type="button" onclick="multiplyANS()">Multiply</button>
+    </form>
+
+
+<!-- this form is for making any words first letter an uppercase -->
+    <form>
+        <input type="text" id="Words" placeholder="word">
+        <button type="button" onclick="capitaliseAns()">Capitalize word</button>
+    </form>
+
+    <!-- this one shows last letter of any word -->
+    <form >
+         <input type="text" name="text" id="string1" placeholder="write a word for its last letter">
+         <button type="button" onclick="showAnsOfLastLetter()">Submit</button>
+
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
