@@ -38,6 +38,7 @@ ask("Do you Agree with our Terms & Condition?"
 // more info in function declaration u can access them before function line appears,
 // and in function expression u can not do same. 
 
+
 const number1 = document.getElementById("num1");
 const number2 = document.getElementById("num2");
 
@@ -45,7 +46,8 @@ function addNum(a, b)
 {
     return a + b;
 }
-
+                             //here i am just trying something or build some 
+                             // random bullshit trying to get used to this.
 function showResult() {
     const result = addNum (
         Number(number1.value),
